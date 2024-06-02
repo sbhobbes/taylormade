@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taylormade"
+version = "0.1.0"
+description = "Host a web server for TaylorMade Cookies"
+authors = ["Seth Hobbes", "TaylorMade Cookies, LLC"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+flask = ">=3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
